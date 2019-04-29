@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B525575F22776FD30024DE27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B525575E22776FD30024DE27 /* AppDelegate.swift */; };
+		B525576122776FD30024DE27 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B525576022776FD30024DE27 /* FirstViewController.swift */; };
+		B525576322776FD30024DE27 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B525576222776FD30024DE27 /* SecondViewController.swift */; };
+		B525576622776FD30024DE27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B525576422776FD30024DE27 /* Main.storyboard */; };
+		B525576822776FD40024DE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B525576722776FD40024DE27 /* Assets.xcassets */; };
+		B525576B22776FD40024DE27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B525576922776FD40024DE27 /* LaunchScreen.storyboard */; };
+		B525577622776FD40024DE27 /* findemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B525577522776FD40024DE27 /* findemTests.swift */; };
+		B525578122776FD40024DE27 /* findemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B525578022776FD40024DE27 /* findemUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B525577222776FD40024DE27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B525575322776FD30024DE27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B525575A22776FD30024DE27;
+			remoteInfo = findem;
+		};
+		B525577D22776FD40024DE27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B525575322776FD30024DE27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B525575A22776FD30024DE27;
+			remoteInfo = findem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B525575B22776FD30024DE27 /* findem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = findem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B525575E22776FD30024DE27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B525576022776FD30024DE27 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B525576222776FD30024DE27 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B525576522776FD30024DE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B525576722776FD40024DE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B525576A22776FD40024DE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B525576C22776FD40024DE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B525577122776FD40024DE27 /* findemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = findemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B525577522776FD40024DE27 /* findemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findemTests.swift; sourceTree = "<group>"; };
+		B525577722776FD40024DE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B525577C22776FD40024DE27 /* findemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = findemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B525578022776FD40024DE27 /* findemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findemUITests.swift; sourceTree = "<group>"; };
+		B525578222776FD40024DE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B525575822776FD30024DE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B525576E22776FD40024DE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B525577922776FD40024DE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B525575222776FD30024DE27 = {
+			isa = PBXGroup;
+			children = (
+				B525575D22776FD30024DE27 /* findem */,
+				B525577422776FD40024DE27 /* findemTests */,
+				B525577F22776FD40024DE27 /* findemUITests */,
+				B525575C22776FD30024DE27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B525575C22776FD30024DE27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B525575B22776FD30024DE27 /* findem.app */,
+				B525577122776FD40024DE27 /* findemTests.xctest */,
+				B525577C22776FD40024DE27 /* findemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B525575D22776FD30024DE27 /* findem */ = {
+			isa = PBXGroup;
+			children = (
+				B525575E22776FD30024DE27 /* AppDelegate.swift */,
+				B525576022776FD30024DE27 /* FirstViewController.swift */,
+				B525576222776FD30024DE27 /* SecondViewController.swift */,
+				B525576422776FD30024DE27 /* Main.storyboard */,
+				B525576722776FD40024DE27 /* Assets.xcassets */,
+				B525576922776FD40024DE27 /* LaunchScreen.storyboard */,
+				B525576C22776FD40024DE27 /* Info.plist */,
+			);
+			path = findem;
+			sourceTree = "<group>";
+		};
+		B525577422776FD40024DE27 /* findemTests */ = {
+			isa = PBXGroup;
+			children = (
+				B525577522776FD40024DE27 /* findemTests.swift */,
+				B525577722776FD40024DE27 /* Info.plist */,
+			);
+			path = findemTests;
+			sourceTree = "<group>";
+		};
+		B525577F22776FD40024DE27 /* findemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B525578022776FD40024DE27 /* findemUITests.swift */,
+				B525578222776FD40024DE27 /* Info.plist */,
+			);
+			path = findemUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B525575A22776FD30024DE27 /* findem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B525578522776FD40024DE27 /* Build configuration list for PBXNativeTarget "findem" */;
+			buildPhases = (
+				B525575722776FD30024DE27 /* Sources */,
+				B525575822776FD30024DE27 /* Frameworks */,
+				B525575922776FD30024DE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = findem;
+			productName = findem;
+			productReference = B525575B22776FD30024DE27 /* findem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B525577022776FD40024DE27 /* findemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B525578822776FD40024DE27 /* Build configuration list for PBXNativeTarget "findemTests" */;
+			buildPhases = (
+				B525576D22776FD40024DE27 /* Sources */,
+				B525576E22776FD40024DE27 /* Frameworks */,
+				B525576F22776FD40024DE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B525577322776FD40024DE27 /* PBXTargetDependency */,
+			);
+			name = findemTests;
+			productName = findemTests;
+			productReference = B525577122776FD40024DE27 /* findemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B525577B22776FD40024DE27 /* findemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B525578B22776FD40024DE27 /* Build configuration list for PBXNativeTarget "findemUITests" */;
+			buildPhases = (
+				B525577822776FD40024DE27 /* Sources */,
+				B525577922776FD40024DE27 /* Frameworks */,
+				B525577A22776FD40024DE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B525577E22776FD40024DE27 /* PBXTargetDependency */,
+			);
+			name = findemUITests;
+			productName = findemUITests;
+			productReference = B525577C22776FD40024DE27 /* findemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B525575322776FD30024DE27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Jonah Saya";
+				TargetAttributes = {
+					B525575A22776FD30024DE27 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					B525577022776FD40024DE27 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = B525575A22776FD30024DE27;
+					};
+					B525577B22776FD40024DE27 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = B525575A22776FD30024DE27;
+					};
+				};
+			};
+			buildConfigurationList = B525575622776FD30024DE27 /* Build configuration list for PBXProject "findem" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B525575222776FD30024DE27;
+			productRefGroup = B525575C22776FD30024DE27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B525575A22776FD30024DE27 /* findem */,
+				B525577022776FD40024DE27 /* findemTests */,
+				B525577B22776FD40024DE27 /* findemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B525575922776FD30024DE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B525576B22776FD40024DE27 /* LaunchScreen.storyboard in Resources */,
+				B525576822776FD40024DE27 /* Assets.xcassets in Resources */,
+				B525576622776FD30024DE27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B525576F22776FD40024DE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B525577A22776FD40024DE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B525575722776FD30024DE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B525576322776FD30024DE27 /* SecondViewController.swift in Sources */,
+				B525575F22776FD30024DE27 /* AppDelegate.swift in Sources */,
+				B525576122776FD30024DE27 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B525576D22776FD40024DE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B525577622776FD40024DE27 /* findemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B525577822776FD40024DE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B525578122776FD40024DE27 /* findemUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B525577322776FD40024DE27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B525575A22776FD30024DE27 /* findem */;
+			targetProxy = B525577222776FD40024DE27 /* PBXContainerItemProxy */;
+		};
+		B525577E22776FD40024DE27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B525575A22776FD30024DE27 /* findem */;
+			targetProxy = B525577D22776FD40024DE27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B525576422776FD30024DE27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B525576522776FD30024DE27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B525576922776FD40024DE27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B525576A22776FD40024DE27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B525578322776FD40024DE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B525578422776FD40024DE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B525578622776FD40024DE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = findem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = commash.findem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B525578722776FD40024DE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = findem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = commash.findem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B525578922776FD40024DE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = findemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = commash.findemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/findem.app/findem";
+			};
+			name = Debug;
+		};
+		B525578A22776FD40024DE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = findemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = commash.findemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/findem.app/findem";
+			};
+			name = Release;
+		};
+		B525578C22776FD40024DE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = findemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = commash.findemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = findem;
+			};
+			name = Debug;
+		};
+		B525578D22776FD40024DE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = findemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = commash.findemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = findem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B525575622776FD30024DE27 /* Build configuration list for PBXProject "findem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B525578322776FD40024DE27 /* Debug */,
+				B525578422776FD40024DE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B525578522776FD40024DE27 /* Build configuration list for PBXNativeTarget "findem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B525578622776FD40024DE27 /* Debug */,
+				B525578722776FD40024DE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B525578822776FD40024DE27 /* Build configuration list for PBXNativeTarget "findemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B525578922776FD40024DE27 /* Debug */,
+				B525578A22776FD40024DE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B525578B22776FD40024DE27 /* Build configuration list for PBXNativeTarget "findemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B525578C22776FD40024DE27 /* Debug */,
+				B525578D22776FD40024DE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B525575322776FD30024DE27 /* Project object */;
+}
